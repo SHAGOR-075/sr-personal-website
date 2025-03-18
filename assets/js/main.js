@@ -45,7 +45,7 @@ const sendEmail = (e) =>{
     e.preventDefault()
 
 
-    emailjs.sendForm('service_w972z9v', 'template_m8nkvhd', '#contact-form', 'JfAwucMnPqaQ4pqrU')
+    emailjs.sendForm("service_ercwgry","template_ejnrm8c", '#contact-form', 'Y3e734NN78Z1CaYns')
         .then(() => {
             contactMessage.textContent = 'Message sent successfully'
 
